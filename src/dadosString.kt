@@ -13,7 +13,7 @@ fun main() {
 
     print("Digite sua idade: ")
     val idade = readLine()?.toIntOrNull() ?: 0
-    
+
     val mensagem = criarMensagem(nome, idade)
     println(mensagem)
 }
