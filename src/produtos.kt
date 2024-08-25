@@ -40,7 +40,7 @@ fun fazerLooop() {
     }
 
     val produtosOrdenados = produtos.toList().sortedBy { (_, preco) -> preco }
-    
+
     println("\nProdutos ordenados por preço (em ordem crescente):")
     var index = 0
     while (index < produtosOrdenados.size) {
