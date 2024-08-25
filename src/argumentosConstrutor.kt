@@ -37,7 +37,7 @@ fun main() {
     val telefone = readLine() ?: ""
 
     val pessoa = InformacoesPessoa(nome, idade, email, endereco, telefone)
-    
+
     println("\nInformações da Pessoa:")
     pessoa.exibirInformacoes()
 }
